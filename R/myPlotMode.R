@@ -1,6 +1,6 @@
 #' Plot numerical data highlighting the mode
 #'
-#' This function allows you to plot data and draw a vertical line where the mode is located.
+#' This function allows you to do a boxplot of your data and draw a vertical line where the mode is located
 #' @param x R object
 #' @keywords mode
 #' @export
@@ -10,7 +10,7 @@
 
 myPlotMode <- function(x, ...) { 
   
-  boxplot(array.arg, ...)
+  boxplot(x, ...)
   
   # Vertical line showing the mode
   abline(h = myMode(x), col="gray67", lwd = 2 , lty = 2)

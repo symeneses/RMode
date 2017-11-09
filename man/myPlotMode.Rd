@@ -10,7 +10,7 @@ myPlotMode(x, ...)
 \item{x}{R object}
 }
 \description{
-This function allows you to plot data and draw a vertical line where the mode is located.
+This function allows you to do a boxplot of your data and draw a vertical line where the mode is located
 }
 \examples{
 myNumbers <- c(7,6,6,10,6,6,7,3,7,14,20,7)

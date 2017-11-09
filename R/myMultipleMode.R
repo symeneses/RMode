@@ -3,7 +3,7 @@
 #' This function allows you to calculate multiples mode if your data is multimodal.
 #' @param x R object
 #' @param multiple TRUE will retur multiple variables, FALSE will show only one of the modes. Defaults to FALSE.
-#' @return A list with the mode of \code{x}.
+#' @return A list with the mode of \code{x} and the times it was repeated.
 #' @keywords mode
 #' @export
 #' @examples

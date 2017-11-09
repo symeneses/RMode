@@ -12,7 +12,7 @@ myMultipleMode(values, multiple = FALSE)
 \item{x}{R object}
 }
 \value{
-A list with the mode of \code{x}.
+A list with the mode of \code{x} and the times it was repeated.
 }
 \description{
 This function allows you to calculate multiples mode if your data is multimodal.
